@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciante</title>
+</head>
+
+<style>
+body {
+    padding: 50px 95px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+header p {
+    margin-bottom: 40px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    color: #000000;
+}
+
+
+
+header h1 {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+
+}
+
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+form label {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 38px;
+    align-items: center;
+    color: #000000;
+    }
+
+form input {
+    width: 566px;
+    height: 53px;
+    left: 94px;
+    top: 515px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    margin: 20px 0
+}
+
+input[type="submit"]{
+    width: 214px;
+    height: 55px;
+    left: 97px;
+    top: 601px;
+    background: #EFEFEF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-size: 33px;
+    align-items: center;
+    color: #000000;
+}
+
+.other p {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+ 
+}
+
+.other {
+    width: 50%;
+}
+
+#provedor {
+    width: 404.5px;
+    height: 55px;
+    background: #EFEFEF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-size: 33px;
+    align-items: center;
+}
+
+</style>
+
+
+
+
+
+<body>
+    <header>
+        <div id="image">
+            <img src="hbologo.svg">
+        </div>
+
+        <h1>Entrar</h1>
+
+        <p>Você tem uma conta HBO Max?</p>
+    </header>
+
+    <form>
+        <div class="formGroup">
+        <label>E-mail</label>
+        <input type="email">
+        </div>
+
+        <div class="formGroup">
+        <label>Senha</label>
+        <input type="text">
+        </div>
+
+        <input type="submit" value="Entrar">
+    </form>
+    <div class="other">
+        <p>Você acessa a HBO Max por um provedor de TV, de internet ou celular?</p>
+        <button id="provedor" href="">Entrar com provedor</button>
+    </div>
+    
+</body>
+
+
+</html>
